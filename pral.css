@@ -1,0 +1,61 @@
+body{
+  background-image: url("https://grandcircle.scene7.com/is/image/GrandCircle/T49342/21x9/850"), url(pradeep.jpg);
+  background-repeat: no-repeat, repeat;
+  background-blend-mode: overlay;
+  display: grid;
+  background-size: cover;
+  grid-template-columns: min-content 1fr;
+  
+  background-attachment: fixed;
+  background-position: center; 
+}
+div {
+  border: 3px solid blue;
+  padding: 5px;
+}
+
+
+
+.img2 {
+  float: right;
+  background-color:blue;
+}
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  background-color:blue;
+  
+}
+.container  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#d6e2ee;
+}
+.info{
+  text-align: left;
+  
+}
+.main{
+  background-color:#d6e2ee;
+}
+.containe{
+  background-color: #d6e2ee;
+}
+
+
+
+.image {
+  flex-basis: 40%
+}
+
+.text {
+  font-size: 10px;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}

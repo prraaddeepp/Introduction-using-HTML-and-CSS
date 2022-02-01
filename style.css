@@ -1,0 +1,125 @@
+.marq img{
+  height: 50px;
+}
+.main_image {
+ background-image: url(howard-university.jpeg);
+  height: 100vh;
+  background-repeat: no-repeat,repeat;
+  background-size: cover;
+  color:black;
+  background-blend-mode: overlay;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  
+  background-attachment: fixed;
+  background-position: center;
+  filter: blur(2px);
+  -webkit-filter: blur(1px);
+ 
+
+ 
+}
+.second_main{
+  position: absolute;
+  top: 0;
+}
+.heading{
+  width: 100vw;
+}
+.Pradeep{
+  color:bisque;
+}
+h1{
+  color:black;
+  text-align:right;
+}
+
+
+.avatars {
+  
+  
+  height: 50px;
+  border-radius: 50%;
+}
+
+.avatar#ani {
+  right:20%;
+  height: 200px;
+  position:absolute;
+  left:20%;
+  bottom: -400%;
+  border-radius: 50%;
+  border: 3px solid black;
+  
+}
+#san {
+
+  left:30;
+  height: 200px;
+  position:absolute;
+  right:21%;
+  bottom: -400%;
+  border-radius: 50%;
+  border: 3px solid black;
+  
+}
+.avatar#pra {
+
+  left:30;
+  height: 200px;
+  position:absolute;
+  border-radius: 50%;
+  border: 3px solid black;
+  right:48%;
+  bottom: -200%;
+  
+}
+.button#anir{
+  height: 20px;
+  position:absolute;
+  left:12%;
+  bottom: -450%;
+  background-color:green;
+  color:white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  
+
+  
+}
+.button#sanj{
+  height: 20px;
+  position:absolute;
+  left:78%;
+  bottom: -450%;
+  background-color:green;
+  color:white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  
+}
+.button#prad{
+  left:20;
+  height: 20px;
+  position:absolute;
+  right:51%;
+  bottom: -250%;
+  background-color:green;
+  color:white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+  
+}
+
+#des{
+   text-align: center;
+}
